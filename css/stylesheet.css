@@ -71,25 +71,97 @@
 }
 
 /*section*/
-#home {
-    margin-left: 10px;
-    margin-top: 30px;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#home ol div {
-    margin-top: 50px;
-    font-size: 20px;
-    color: black;
+.sec_title {
+    font-size: 50px;
     font-weight: bold;
+    color: #17252A;
+    padding-bottom: 30px;
 }
 
-#home ol li {
-    margin-top: 5px;
+#first_sec {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1%;
+    background-color: #3AAFA9;
+    padding-bottom: 50px;
 }
 
-#home ol p{
-    margin-top: 20px;
-    font-size: 15px;
+#first_sec ul {
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%; 
+    font-size: 20px;
+}
+
+#first_sec img {
+    width: 300px;
+    height: 300px;
+    border-bottom-left-radius: 100%;
+}
+
+#second_sec {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 1%;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+#second_sec ul {
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    font-size: 20px;
+    float: right;
+}
+
+#second_sec img {
+    width: 300px;
+    height: 300px;
+    border-bottom-right-radius: 100%;
+}
+
+#third_sec {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3AAFA9;
+    padding-bottom: 50px;
+}
+
+#third_sec ul {
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+#third_sec img {
+    width: 300px;
+    height: 300px;
+    border-bottom-left-radius: 100%;
+}
+
+#fourth_sec {
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #1F2833;
+    padding-bottom: 50px;
+}
+
+#fourth_sec p {
+    color: #ffffff;
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: #17252A;
+    text-align: center;
 }
